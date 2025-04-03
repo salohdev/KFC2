@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7141a;
+    padding: 15px 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+}
+.btn {
+    background-color: #d7141a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.menu, .about, .contact {
+    text-align: center;
+    padding: 40px;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.item {
+    background-color: #d7141a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}

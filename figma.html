@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Style Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d7141a;
+            padding: 15px 20px;
+        }d
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #000;
+            color: #fff;
+        }
+        .btn {
+            background-color: #d7141a;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .menu, .about, .contact, .signup {
+            text-align: center;
+            padding: 40px;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item {
+            background-color: #d7141a;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .signup-form {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+        }
+        .signup-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .signup-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #d7141a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">KFC</div>
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to KFC</h1>
+        <p>Delicious Chicken & More!</p>
+        <a href="#menu" class="btn">View Menu</a>
+    </section>
+    
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">Chicken Bucket</div>
+            <div class="item">Zinger Burger</div>
+            <div class="item">Fries & Drinks</div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We bring the best fried chicken experience to you!</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@kfc.com</p>
+    </section>
+    
+    <section id="signup" class="signup">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 KFC. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link rel="stylesheet" href="./KFC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="fixed">
+            <div class="container">
+                <!-- Brand Logo -->
+                <div class="brand-img">
+                    <a href="./KFC.html"><img src="./img/kfc_logo.svg" alt="KFC Logo"></a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <ul class="nav-menu">
+                    <li><a href="http://127.0.0.1:5500/kfc-menyu.html">MENYU</a></li>
+                    <li><a href="#">RESTORANLAR</a></li>
+                    <span>
+                        <a href="#">
+                            <img src="https://kfc.com.uz/admin/files/5234.png" alt="Halal Certification"
+                                class="header-icon">
+                        </a>
+                    </span>
+                    <li><a href="#">HOZIR BUYURTMA BERISH</a></li>
+                    <!-- Language Dropdown -->
+                    <div class="dropdown">
+                        <select name="" id=""
+                            style="float: right; margin-right: -350px; width: 55px; text-align: center; height: 33px; background: #2F322C; border-radius: 50px; color: #fff; font-weight: 700; border: none;">
+                            <option value="">UZ</option>
+                            <option value="">EN</option>
+                            <option value="">RU</option>
+                        </select>
+                    </div>
+            </div>
+        </nav>
+        <section>
+            <div class="jamoga_qoshiling">
+                <img src="./img/kfc_jamoa.jpg" alt=""
+                    style="width: 1200px; background-position: center; background-repeat: no-repeat; float: right; margin-right: 75px; margin-top: 140px; border-radius: 40px;">
+                <div class="tab-container">
+                    <button class="tab-button" id="recommended">Tavsiya etiladi</button>
+                    <button class="tab-button" id="combo">Combo</button>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./img/chizburger.jpg" alt="Chizburger">
+                        <h3>Chizburger De Lyuks</h3>
+                        <p>Xantal sousi, ketchup, original panirlangan tovuq go'shti, pishloq...</p>
+                        <div class="pencil">
+                            <a href=""><i class="fa-solid fa-pencil"></i></a>
+                        </div>
+                        <a href="">
+                            <div class="narx">
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 27 29" class="cart-icon">
+                                        <path fill="#FFF" fill-rule="nonzero"
+                                            d="M23.805.855h-21c-1.05 0-1.75.7-1.75 1.75l-1 24.5c0 1.05.7 1.75 1.75 1.75h23c1.05 0 1.75-.7 1.75-1.75l-1-24.5c0-1.05-.7-1.75-1.75-1.75zm-3.5 8.75c0 3.85-3.15 7-7 7s-7-3.15-7-7v-1.75h3.5v1.75a3.51 3.51 0 0 0 3.5 3.5 3.51 3.51 0 0 0 3.5-3.5v-1.75h3.5v1.75z">
+                                        </path></span>
+                                </svg>
+                                23 000 UZS
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./img/lavash.jpg" alt="Twister Kebab">
+                        <h3>Twister Kebab Original</h3>
+                        <p>Fri kartoshkasi, salat barglari, yangi pomidor, tuzlangan bodring...</p>
+                        <div class="pencil">
+                            <a href=""><i class="fa-solid fa-pencil"></i></a>
+                        </div>
+                        <a href="">
+                            <div class="narx">
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 27 29" class="cart-icon">
+                                        <path fill="#FFF" fill-rule="nonzero"
+                                            d="M23.805.855h-21c-1.05 0-1.75.7-1.75 1.75l-1 24.5c0 1.05.7 1.75 1.75 1.75h23c1.05 0 1.75-.7 1.75-1.75l-1-24.5c0-1.05-.7-1.75-1.75-1.75zm-3.5 8.75c0 3.85-3.15 7-7 7s-7-3.15-7-7v-1.75h3.5v1.75a3.51 3.51 0 0 0 3.5 3.5 3.51 3.51 0 0 0 3.5-3.5v-1.75h3.5v1.75z">
+                                        </path></span>
+                                </svg>
+                                28 000 UZS
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./img/chiken_burger.jpg" alt="Big Sanders">
+                        <h3>Big Sanders Burger Achchiq</h3>
+                        <p>Katta va ishtahaochar burger, achchiq ta'mli maxsus sous...</p>
+                        <div class="pencil">
+                            <a href=""><i class="fa-solid fa-pencil"></i></a>
+                        </div>
+                        <a href="">
+                            <div class="narx">
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 27 29" class="cart-icon">
+                                        <path fill="#FFF" fill-rule="nonzero"
+                                            d="M23.805.855h-21c-1.05 0-1.75.7-1.75 1.75l-1 24.5c0 1.05.7 1.75 1.75 1.75h23c1.05 0 1.75-.7 1.75-1.75l-1-24.5c0-1.05-.7-1.75-1.75-1.75zm-3.5 8.75c0 3.85-3.15 7-7 7s-7-3.15-7-7v-1.75h3.5v1.75a3.51 3.51 0 0 0 3.5 3.5 3.51 3.51 0 0 0 3.5-3.5v-1.75h3.5v1.75z">
+                                        </path></span>
+                                </svg>
+                                37 000 UZS
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./img/burger_sir.jpg" alt="">
+                        <h3>SHEF TAUER ACHCHIQ</h3>
+                        <p>“Burger” sousi, Achchiq tolqinda sersuv file, xashbraun, pishloq...</p>
+                        <div class="pencil">
+                            <a href=""><i class="fa-solid fa-pencil"></i></a>
+                        </div>
+                        <a href="">
+                            <div class="narx">
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 27 29" class="cart-icon">
+                                        <path fill="#FFF" fill-rule="nonzero"
+                                            d="M23.805.855h-21c-1.05 0-1.75.7-1.75 1.75l-1 24.5c0 1.05.7 1.75 1.75 1.75h23c1.05 0 1.75-.7 1.75-1.75l-1-24.5c0-1.05-.7-1.75-1.75-1.75zm-3.5 8.75c0 3.85-3.15 7-7 7s-7-3.15-7-7v-1.75h3.5v1.75a3.51 3.51 0 0 0 3.5 3.5 3.51 3.51 0 0 0 3.5-3.5v-1.75h3.5v1.75z">
+                                        </path></span>
+                                </svg>
+                                28 000 UZS
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- second card -->
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./img/kfc_chiken.jpg" alt="Chizburger">
+                        <h3 style="font-size: 15px;">Basket duet achchiq 77000 so'm</h3>
+                        <p>Аччиқ Дуэт баскети KFCнинг дунёга машҳур таомлари бизнинг...</p>
+                        <div class="tanlov">
+                            <a href="">
+                                Tanlov
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/kfc_chiken_big.png" alt="Twister Kebab">
+                        <h3 style="font-size: 15px;">Basket achchiq 57000 so'm</h3>
+                        <p>Qarsildoq qanotchalar va mazali Stripslarning ajoyib uyg'unligini sinab...</p>
+                        <div class="tanlov">
+                            <a href="">
+                                Tanlov
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/kombo_chiken.jpg" alt="Big Sanders" style="height: 210px; margin-top: 38px;">
+                        <h3 style="font-size: 15px;">Frends boks assorti 184000 so'm</h3>
+                        <p>Bir Boksda maksimal miqdorda mazali tovuacha: 5 ta mazali Oyoq, 10 ta...</p>
+                        <div class="tanlov">
+                            <a href="">
+                                Tanlov
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/bib_combo_chiken.jpg" alt="" style="height: 210px; margin-top: 38px;">
+                        <h3 style="font-size: 15px;">Miks boks 20000 so'm</h3>
+                        <p>Mazzali ishtaxaochar original naggetslar maxsus retsep bo'yicha...</p>
+                        <div class="tanlov">
+                            <a href="">
+                                Tanlov
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    document.querySelectorAll('.tab-button').forEach(button => {
+                        button.addEventListener('click', function () {
+                            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                            this.classList.add('active');
+                        });
+                    });
+                </script>
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="takliflar">
+                <a href=""><span>Barcha takliflarni ko'rib chiqish
+                    </span></a>
+            </div>
+            <div class="pictures">
+                <div class="aqsh_narxi">
+                    <div class="contact">
+                        <img src="./img/kfc_aqsh_narxi.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h2 style="text-align: center;">Bizga o'zingizning fikringizni bildiring</h2>
+                                <p style="margin-top: 20px;">Biz bilan tajribangizni baholang va bizga yaxshiroq bo'lishga <br> yordam
+                                    bering.</p>
+                                <a href="">
+                                    <button>
+                                        AQSH NARXI
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ularni_kashf_eting">
+                    <div class="contact1">
+                        <img src="./img/kfc_tovuq.jpeg" alt="Avatar" class="image1">
+                        <div class="overlay1">
+                            <div class="text1">
+                                <h3>11 tarkibiy mahsulotlar</h3>
+                                <p style="margin-top: 10px;">Oziq-ovqatimizni o'zgacha qiladigan narsa.</p>
+                                    <a href="">
+                                        <button>
+                                            ULARNI KASHF ETING
+                                        </button>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="footer-top">
+                <div class="line"></div>
+                <div class="line2"></div>
+                <div class="img">
+                    <a href="http://127.0.0.1:5500/KFC.html">
+                        <img src="./img/kfc_logo.svg" alt="" class="kfc_loogo">
+                    </a>
+                </div>
+                <div class="tel">
+                    <a href="">
+                        <i class="fa-solid fas fa-phone-alt"></i>
+                        +998 (78) 129 70 00
+                    </a>
+                </div>
+                <div class="brandsk">
+                    <a href="https://www.facebook.com/KFC.uz" target="_blank">
+                        <i class="fa-solid fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kfcinuzbekistan/" target="_blank">
+                        <i class="fa-solid fab fa-instagram"></i>
+                    </a>
+                    <a href="https://t.me/kfcuzbekistanofficial" target="_blank">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="malumot">
+                    <span>Ma'lumot</span>
+                    <ul>
+                        <li><a href="">Tarix</a></li><br><br>
+                        <li><a href="">11 tarkibiy mahsulotlar!</a></li><br><br>
+                        <li><a href="">Allergenlar & To'yimli</a></li><br><br>
+                        <li><a href="">Doʻkonlar</a></li><br><br>
+                        <li><a href="">HALAL</a></li>
+                    </ul>
+                </div>
+                <div class="yordam-kerak">
+                    <span>Yordam Kerakmi?</span>
+                    <ul>
+                        <li><a href="">Biz bilan bog’lanish</a></li><br><br>
+                        <li><a href="">KFC’ga ishga qabul qilish</a></li><br><br>
+                        <li><a href="">Shartlar va shartlar</a></li><br><br>
+                    </ul>
+                </div>
+                <div class="hisob">
+                    <span>Hisob</span>
+                    <ul>
+                        <li><a href="">Tizimga kirish</a></li><br><br>
+                        <li><a href="">Ro‘yhatdan o‘tish</a></li><br><br>
+                        <li><a href="">Parolimni unutdim</a></li><br><br>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="maxfiylik">
+                <a href="">Maxfiylik siyosati</a>
+            </div>
+            <div class="kfc-2025">
+                <h3><span>©</span> KFC <span>2025</span></h3>
+            </div>
+            <div class="powered">
+                <a href="https://www.fimble.io/" target="_blank">
+                    <img src="./img/powered-by-fimble.svg" alt="">
+                </a>
+            </div>
+            <div class="box1">
+                <img src="./img/white.png" alt="">
+            </div>
+            <div class="box2">
+                <img src="./img/white.png" alt="">
+            </div>
+            <div class="box3">
+                <img src="./img/white.png" alt="">
+            </div>
+        </footer>
+    </header>
+</body>
+
+</html>
